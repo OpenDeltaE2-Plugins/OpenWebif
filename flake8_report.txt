@@ -1,0 +1,93 @@
+plugin/plugin.py:110:1: E402 module level import not at top of file
+plugin/plugin.py:214:6: E714 test for object identity should be 'is not'
+plugin/plugin.py:218:6: E714 test for object identity should be 'is not'
+plugin/plugin.py:265:3: E123 closing bracket does not match indentation of opening bracket's line
+plugin/httpserver.py:164:25: F841 local variable 'e' is assigned to but never used
+plugin/httpserver.py:247:7: E123 closing bracket does not match indentation of opening bracket's line
+plugin/httpserver.py:307:3: F841 local variable 'host' is assigned to but never used
+plugin/httpserver.py:479:20: F841 local variable 'e' is assigned to but never used
+plugin/controllers/BouquetEditor.py:400:6: E117 over-indented
+plugin/controllers/BouquetEditor.py:622:4: F841 local variable 'lines' is assigned to but never used
+plugin/controllers/BouquetEditor.py:754:12: F821 undefined name 'MODE_RADIO'
+plugin/controllers/BQE.py:298:6: E722 do not use bare 'except'
+plugin/controllers/base.py:212:6: E117 over-indented (comment)
+plugin/controllers/base.py:216:6: E117 over-indented (comment)
+plugin/controllers/base.py:231:6: E117 over-indented (comment)
+plugin/controllers/base.py:394:20: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+plugin/controllers/base.py:430:70: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+plugin/controllers/root.py:42:1: F401 'Plugins.Extensions.OpenWebif.controllers.defaults.setMobile' imported but unused
+plugin/controllers/AT.py:89:4: F841 local variable 'lines' is assigned to but never used
+plugin/controllers/AT.py:179:25: F841 local variable 'e' is assigned to but never used
+plugin/controllers/transcoding.py:115:2: E301 expected 1 blank line, found 0
+plugin/controllers/transcoding.py:134:2: E301 expected 1 blank line, found 0
+plugin/controllers/ajax.py:105:36: F841 local variable 'extEventInfoProvider' is assigned to but never used
+plugin/controllers/ajax.py:179:5: E124 closing bracket does not match visual indentation
+plugin/controllers/ajax.py:278:30: F821 undefined name '_'
+plugin/controllers/NET.py:199:34: W605 invalid escape sequence '\W'
+plugin/controllers/defaults.py:78:1: E115 expected an indented block (comment)
+plugin/controllers/defaults.py:115:2: F841 local variable 'PICON_EXT' is assigned to but never used
+plugin/controllers/defaults.py:137:2: F841 local variable 'PICON_PATH' is assigned to but never used
+plugin/controllers/defaults.py:234:3: F401 'enigma.setPrevAsciiCode' imported but unused
+plugin/controllers/utilities.py:14:8: E126 continuation line over-indented for hanging indent
+plugin/controllers/epg.py:24:1: F401 'time.localtime' imported but unused
+plugin/controllers/epg.py:24:1: F401 'time.gmtime' imported but unused
+plugin/controllers/epg.py:24:1: F401 'time.strftime' imported but unused
+plugin/controllers/epg.py:88:2: E303 too many blank lines (2)
+plugin/controllers/epg.py:123:3: F841 local variable 'eventData' is assigned to but never used
+plugin/controllers/epg.py:126:3: F841 local variable 'dateAndTime' is assigned to but never used
+plugin/controllers/epg.py:127:3: F841 local variable 'currentTime' is assigned to but never used
+plugin/controllers/epg.py:226:2: E301 expected 1 blank line, found 0
+plugin/controllers/epg.py:406:2: E301 expected 1 blank line, found 0
+plugin/controllers/web.py:60:15: W605 invalid escape sequence '\:'
+plugin/controllers/web.py:60:18: W605 invalid escape sequence '\d'
+plugin/controllers/web.py:2460:1: E402 module level import not at top of file
+plugin/controllers/file.py:69:21: W605 invalid escape sequence '\:'
+plugin/controllers/file.py:69:24: W605 invalid escape sequence '\d'
+plugin/controllers/mobile.py:132:3: E722 do not use bare 'except'
+plugin/controllers/models/stream.py:73:2: F841 local variable 'model' is assigned to but never used
+plugin/controllers/models/stream.py:74:2: F841 local variable 'machinebuild' is assigned to but never used
+plugin/controllers/models/stream.py:131:4: E741 ambiguous variable name 'l'
+plugin/controllers/models/stream.py:181:3: F841 local variable 'model' is assigned to but never used
+plugin/controllers/models/stream.py:182:3: F841 local variable 'machinebuild' is assigned to but never used
+plugin/controllers/models/stream.py:235:20: W605 invalid escape sequence '\:'
+plugin/controllers/models/stream.py:235:23: W605 invalid escape sequence '\d'
+plugin/controllers/models/mediaplayer.py:192:22: W605 invalid escape sequence '\.'
+plugin/controllers/models/mediaplayer.py:196:22: W605 invalid escape sequence '\.'
+plugin/controllers/models/mediaplayer.py:200:22: W605 invalid escape sequence '\.'
+plugin/controllers/models/owibranding.py:55:3: E731 do not assign a lambda expression, use a def
+plugin/controllers/models/owibranding.py:69:14: E741 ambiguous variable name 'l'
+plugin/controllers/models/owibranding.py:165:6: E117 over-indented
+plugin/controllers/models/OWFMovieList.py:13:1: F401 'Tools.FuzzyDate.FuzzyTime' imported but unused
+plugin/controllers/models/OWFMovieList.py:15:1: F401 'Tools.Directories.resolveFilename' imported but unused
+plugin/controllers/models/OWFMovieList.py:17:1: F401 'ServiceReference.ServiceReference' imported but unused
+plugin/controllers/models/OWFMovieList.py:48:3: E722 do not use bare 'except'
+plugin/controllers/models/OWFMovieList.py:152:1: E115 expected an indented block (comment)
+plugin/controllers/models/services.py:30:1: F401 'enigma.eEPGCache' imported but unused
+plugin/controllers/models/services.py:419:26: W605 invalid escape sequence '\s'
+plugin/controllers/models/services.py:419:46: W605 invalid escape sequence '\s'
+plugin/controllers/models/services.py:419:51: W605 invalid escape sequence '\s'
+plugin/controllers/models/services.py:419:55: W605 invalid escape sequence '\d'
+plugin/controllers/models/services.py:419:59: W605 invalid escape sequence '\s'
+plugin/controllers/models/services.py:432:6: E741 ambiguous variable name 'l'
+plugin/controllers/models/services.py:1127:5: E126 continuation line over-indented for hanging indent
+plugin/controllers/models/services.py:1132:4: E126 continuation line over-indented for hanging indent
+plugin/controllers/models/services.py:1173:3: F841 local variable 'eventLookupTable' is assigned to but never used
+plugin/controllers/models/timers.py:26:1: F401 'enigma.eServiceReference' imported but unused
+plugin/controllers/models/timers.py:327:5: E123 closing bracket does not match indentation of opening bracket's line
+plugin/controllers/models/timers.py:332:5: E123 closing bracket does not match indentation of opening bracket's line
+plugin/controllers/models/timers.py:438:6: E123 closing bracket does not match indentation of opening bracket's line
+plugin/controllers/models/timers.py:443:6: E123 closing bracket does not match indentation of opening bracket's line
+plugin/controllers/models/timers.py:711:136: F821 undefined name 'serviceref'
+plugin/controllers/models/timers.py:724:16: F823 local variable 'list' defined as a builtin referenced before assignment
+plugin/controllers/models/timers.py:887:5: E722 do not use bare 'except'
+plugin/controllers/models/movies.py:28:1: F401 'time.time' imported but unused
+plugin/controllers/models/movies.py:321:2: F841 local variable 'tag' is assigned to but never used
+plugin/controllers/models/movies.py:322:2: F841 local variable 'directory' is assigned to but never used
+plugin/controllers/models/movies.py:660:29: E741 ambiguous variable name 'l'
+plugin/controllers/models/movies.py:713:9: E123 closing bracket does not match indentation of opening bracket's line
+plugin/controllers/models/movies.py:730:9: E123 closing bracket does not match indentation of opening bracket's line
+plugin/controllers/models/info.py:443:30: W605 invalid escape sequence '\ '
+plugin/controllers/models/info.py:622:22: F841 local variable 'error' is assigned to but never used
+plugin/controllers/models/info.py:623:1: E115 expected an indented block (comment)
+plugin/controllers/models/info.py:828:22: F841 local variable 'error' is assigned to but never used
+plugin/controllers/models/info.py:829:1: E115 expected an indented block (comment)
